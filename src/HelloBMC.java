@@ -7,7 +7,7 @@ public class HelloBMC {
         writer.println("Hello BMC");
         if (args.length > 0) {
             writer.println("number of words in the first job: " + args[0]);
-            writer.println("number of files in the first job directory: " + args[0]);
+            writer.println("number of files in the first job directory: " + args[1]);
         }
         writer.close();
     }
